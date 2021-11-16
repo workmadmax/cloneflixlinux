@@ -1,9 +1,12 @@
+/* eslint-disable import/no-anonymous-default-export */
 import React from "react";
-import "./MovieRow.css";
+import "./styles.css";
+
+
 
 export default ({ title, items }) => {
   return (
-    <div className='movieRow'>
+    <div className="movieRow">
       <h2>{title}</h2>
       <div className="movieRow--listarea">
         <div className="movieRow--list">
